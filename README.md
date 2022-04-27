@@ -98,7 +98,7 @@ You can use our trained model for drug response prediction. Please make sure tha
 Our trained models are available for download [here](https://drive.google.com/drive/folders/1q2Hdp9ntUZcooK8aM_R4XjDAIvnInMtJ?usp=sharing). Please put it in `saved_models` and modify data path in config file, and run the following commands to test AGMI on your own dataset or our test dataset.
 
 ```
-python tools/test.py configs/agmi/agmi_8layers.py saved_models/new_latestV3.pth
+python tools/test.py configs/agmi/agmi_8layers.py saved_models/new_latestV3.model
 ```
 
 ## Training
